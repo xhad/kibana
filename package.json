@@ -65,7 +65,9 @@
     "uiFramework:start": "grunt uiFramework:start",
     "uiFramework:build": "grunt uiFramework:build",
     "uiFramework:createComponent": "yo ./ui_framework/generator-kui/app/component.js",
-    "uiFramework:documentComponent": "yo ./ui_framework/generator-kui/app/documentation.js"
+    "uiFramework:documentComponent": "yo ./ui_framework/generator-kui/app/documentation.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -127,7 +129,7 @@
     "font-awesome": "4.4.0",
     "glob": "5.0.13",
     "glob-all": "3.0.1",
-    "good-squeeze": "2.1.0",
+    "good-squeeze": "5.0.0",
     "h2o2": "5.1.1",
     "handlebars": "4.0.5",
     "hapi": "14.2.0",
@@ -190,7 +192,7 @@
     "redux-actions": "2.2.1",
     "redux-thunk": "2.2.0",
     "regression": "2.0.0",
-    "request": "2.61.0",
+    "request": "2.82.0",
     "resize-observer-polyfill": "1.2.1",
     "rimraf": "2.4.3",
     "rison-node": "1.0.0",
@@ -212,7 +214,8 @@
     "webpack": "3.6.0",
     "webpack-merge": "4.1.0",
     "wreck": "12.4.0",
-    "yauzl": "2.7.0"
+    "yauzl": "2.7.0",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "@elastic/eslint-config-kibana": "0.14.0",
@@ -304,5 +307,6 @@
   "engines": {
     "node": "6.12.2",
     "npm": "3.10.10"
-  }
+  },
+  "snyk": true
 }
