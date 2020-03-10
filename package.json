@@ -209,7 +209,7 @@
     "uuid": "3.0.1",
     "validate-npm-package-name": "2.2.2",
     "vision": "4.1.0",
-    "webpack": "3.6.0",
+    "webpack": "4.29.0",
     "webpack-merge": "4.1.0",
     "wreck": "12.4.0",
     "yauzl": "2.7.0"
