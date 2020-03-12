@@ -152,7 +152,7 @@
     "markdown-it": "8.3.2",
     "mathjs": "3.16.2",
     "minimatch": "2.0.10",
-    "mkdirp": "0.5.1",
+    "mkdirp": "1.0.0",
     "moment": "2.13.0",
     "moment-timezone": "0.5.4",
     "ngreact": "0.5.1",
