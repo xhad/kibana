@@ -89,7 +89,7 @@
     "angular-translate": "2.13.1",
     "autoprefixer": "6.5.4",
     "babel-core": "6.21.0",
-    "babel-jest": "21.0.0",
+    "babel-jest": "25.1.0",
     "babel-loader": "7.1.2",
     "babel-plugin-add-module-exports": "0.2.1",
     "babel-plugin-transform-async-generator-functions": "6.24.1",
@@ -209,7 +209,7 @@
     "uuid": "3.0.1",
     "validate-npm-package-name": "2.2.2",
     "vision": "4.1.0",
-    "webpack": "3.6.0",
+    "webpack": "4.0.0",
     "webpack-merge": "4.1.0",
     "wreck": "12.4.0",
     "yauzl": "2.7.0"
